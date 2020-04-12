@@ -1,0 +1,111 @@
+.main {
+    width: 935px;
+    margin: 30px auto;
+    /* border: 1px solid #555; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 55px;
+    z-index: 0;
+}
+
+.news {
+    width: 600px;
+    /* border: 1px solid #ccc; */
+}
+
+.container {
+    width: 300px;
+    height: 100vh;
+    margin-left: 640px;
+    position: fixed;
+}
+
+.status {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.header-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+}
+
+.poster {
+    display: flex;
+    align-items: center;
+}
+
+.poster .avatar {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.poster .name,
+.header-status i {
+    font-size: 14px;
+    color: #444;
+}
+
+.status .image img {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    font-size: 25px;
+    color: #555;
+    margin: 5px 10px;
+}
+
+.icons i:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.caption {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 5px;
+    color: #555;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+    border-top: 1px solid #eee;
+    align-items: center;
+}
+
+.comment div {
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comment input {
+    border: none;
+    flex-grow: 1;
+    font-size: 14px;
+    padding: 3px 0;
+    color: #444;
+}
